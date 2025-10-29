@@ -11,7 +11,24 @@ This script takes a PNG image and converts it to an ICO file containing multiple
 - Python 3.x
 - Pillow (PIL) library
 
-The script uses Pillow for image processing. If not installed, you can install it with:
+## Installation
+
+To set up the environment using conda:
+
+1. Ensure you have conda installed
+2. Create the environment from the provided `environment.yml`:
+
+```bash
+conda env create -f environment.yml
+```
+
+3. Activate the environment:
+
+```bash
+conda activate favicon-env
+```
+
+Alternatively, if you prefer to install dependencies manually:
 
 ```bash
 pip install pillow
